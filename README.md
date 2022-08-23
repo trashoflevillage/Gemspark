@@ -7,4 +7,5 @@ Do note, the documentation of this language **does not** expect you to understan
 <br>
 # Documentation
 [Events](https://github.com/trashoflevillage/Gemspark/blob/main/Documentation/Events.md)
+
 [Processes](https://github.com/trashoflevillage/Gemspark/blob/main/Documentation/Processes.md)
