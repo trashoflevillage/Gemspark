@@ -1,5 +1,5 @@
 # Events
-Events are triggers that can be subscribed to by [processes]() via the '@' character. Whenever a process is subscribed to an event, the process will run whenever the event's trigger occurs.
+Events are triggers that can be subscribed to by [processes](https://github.com/trashoflevillage/Gemspark/blob/main/Documentation/Processes.md) via the '@' character. Whenever a process is subscribed to an event, the process will run whenever the event's trigger occurs.
 You can subscribe a process to an event by doing the following:
 
 ``pro ProcessName() @ EventKeyword {}``
