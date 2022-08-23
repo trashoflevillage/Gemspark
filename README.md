@@ -4,3 +4,4 @@ Gemspark is a text-based programming language with the purpose of being translat
 <br>
 <br>
 # Documentation
+[Events](https://github.com/trashoflevillage/Gemspark/blob/main/Documentation/Events.md)
