@@ -4,6 +4,7 @@ Gemspark is a text-based programming language with the purpose of being translat
 Do note, the documentation of this language **does not** expect you to understand how to code in DiamondFire. This documentation attempts to explain everything necessary as thorough as possible.
 <br>
 <br>
+![GemsparkIcon](https://github.com/trashoflevillage/Gemspark/blob/main/icon.png)
 <br>
 # Documentation
 [Events](https://github.com/trashoflevillage/Gemspark/blob/main/Documentation/Events.md)
