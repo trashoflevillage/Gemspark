@@ -7,6 +7,8 @@ Do note, the documentation of this language **does not** expect you to understan
 ![GemsparkIcon](https://github.com/trashoflevillage/Gemspark/blob/main/icon.png)
 <br>
 # Documentation
+[Functions](https://github.com/trashoflevillage/Gemspark/blob/main/Documentation/Functions.md)
+
 [Events](https://github.com/trashoflevillage/Gemspark/blob/main/Documentation/Events.md)
 
 [Processes](https://github.com/trashoflevillage/Gemspark/blob/main/Documentation/Processes.md)
