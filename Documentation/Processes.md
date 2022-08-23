@@ -1,6 +1,6 @@
 # Processes
-Processes are **asynchronous [functions](https://github.com/trashoflevillage/Gemspark/blob/main/Documentation/Functions.md)** that cannot return a value.
-Unlike functions, you can subscribe processes to an [event](https://github.com/trashoflevillage/Gemspark/blob/main/Documentation/Events.md). 
+Processes are **asynchronous [functions](https://github.com/trashoflevillage/Gemspark/blob/main/Documentation/Functions.md)** that cannot [return a value](https://github.com/trashoflevillage/Gemspark/blob/main/Documentation/Functions.md#return-values).
+Unlike [functions](https://github.com/trashoflevillage/Gemspark/blob/main/Documentation/Functions.md), you can subscribe processes to an [event](https://github.com/trashoflevillage/Gemspark/blob/main/Documentation/Events.md). 
 
 Processes can accept inputs in the same way that [functions](https://github.com/trashoflevillage/Gemspark/blob/main/Documentation/Functions.md) can.
 
