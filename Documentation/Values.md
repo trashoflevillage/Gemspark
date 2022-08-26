@@ -1,10 +1,10 @@
 # Values
 Values are pieces of data that your plot can utilize. There are many different types of values, and they all vary the data they store. Each value has a different method of declaration. Additionally, the Plot and Selections store values that can be utilized by the program.
 
-[Strings](#Strings)
-[Numbers](#Numbers)
-[Locations](#Locations)
-[Vectors](#Vectors)
+[Strings](#Strings) <br>
+[Numbers](#Numbers) <br>
+[Locations](#Locations) <br>
+[Vectors](#Vectors) <br>
 
 
 ## Strings
