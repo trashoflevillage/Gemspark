@@ -5,6 +5,8 @@ Values are pieces of data that your plot can utilize. There are many different t
 [Numbers](#Numbers) <br>
 [Locations](#Locations) <br>
 [Vectors](#Vectors) <br>
+[Wilds](#Wilds) <br>
+[Lists](#Lists) <br>
 
 
 ## Strings
@@ -33,7 +35,7 @@ You can define a Vector by using the ``createVec()`` [function](Functions.md).
 ``createVec(1, 1, 1, 5);``
 ``createVec(-2, 1, 6);``
 
-## Wild
+## Wilds
 ``Wild`` values represent *every type of value.* A Wild value can be anything from a String to a Dictionary. The existence of these values is primarily for the sake of easily being able to translate DiamondFire code into Gemspark code.
 
 ## Lists
