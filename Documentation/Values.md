@@ -17,23 +17,23 @@ Additionally, Strings allow for the use of [escape sequences](https://en.wikiped
 
 ## Numbers
 A ``Number`` encompasses any real numbers that the program utilizes. 
-You can define a Number by using numeric characters.
-``1``
-``-9``
-``30.53``
+You can define a Number by using numeric characters.<br>
+``1``<br>
+``-9``<br>
+``30.53``<br>
 
 ## Locations
 A ``Location`` can store a list of five Numbers. These numbers represent an in-game coordinate. Locations allow for the easy modification of the game's world.
-You can define a Location by using the ``createLoc()`` [function](Functions.md).
-``createLoc(5, 50, 5);``
-``createLoc(5, 75, 8, 5, 8);``
-``createLoc(20, 25, 15, 80);``
+You can define a Location by using the ``createLoc()`` [function](Functions.md).<br>
+``createLoc(5, 50, 5);``<br>
+``createLoc(5, 75, 8, 5, 8);``<br>
+``createLoc(20, 25, 15, 80);``<br>
 
 ## Vectors
-A ``Vector`` can store a list of four Numbers. The first three numbers represent the direction the Vector is facing, with the fourth number being the length of the Vector. Vectors are typically utilized for representing velocity.
-You can define a Vector by using the ``createVec()`` [function](Functions.md).
-``createVec(1, 1, 1, 5);``
-``createVec(-2, 1, 6);``
+A ``Vector`` can store a list of three Numbers. The first three numbers represent the direction the Vector is facing. Vectors are typically utilized for representing velocity.
+You can define a Vector by using the ``createVec()`` [function](Functions.md).<br>
+``createVec(1, 1, 1);``<br>
+``createVec(-2, 1, 6);``<br>
 
 ## Wilds
 ``Wild`` values represent *every type of value.* A Wild value can be anything from a String to a Dictionary. The existence of these values is primarily for the sake of easily being able to translate DiamondFire code into Gemspark code.
