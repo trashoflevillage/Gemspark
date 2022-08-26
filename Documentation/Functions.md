@@ -28,7 +28,7 @@ sendAll("Hello World!"); /* Since we're calling the SendAll function with the pa
 the message variable will be set to "Hello World!" inside of the function.*/
 ```
 
-Additionally, if you want a function parameter to reject Wild [variables](Variables.md), then you can append a ``^`` to the beginning of the parameter's type, as seen here:
+Additionally, if you want a function parameter to reject Wild [values](Values.md), then you can append a ``^`` to the beginning of the parameter's type, as seen here:
 ```
 fun functionName(^String message) {
 	// This function will allow Strings, as long as they aren't coming from a Wild variable
