@@ -40,4 +40,4 @@ You can define a Vector by using the ``createVec()`` [function](Functions.md).
 
 ## Lists
 ``List``s are what the name implies, they store a list of values. However, Lists can only store one type of value.
-You can define a List by using the ``createList()`` [function](Function.md).
+You can define a List by using the ``createList()`` [function](Functions.md).
