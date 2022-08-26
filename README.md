@@ -7,14 +7,14 @@ Do note, the documentation of this language **does not** expect you to understan
 ![GemsparkIcon](https://github.com/trashoflevillage/Gemspark/blob/main/icon.png)
 <br>
 # Documentation
-[Functions](Documentation/Functions)
+[Functions](Documentation/Functions.md)
 
-[Values](Documentation/Values)
+[Values](Documentation/Values.md)
 
-[Variables](Documentation/Variables)
+[Variables](Documentation/Variables.md)
 
-[If Statements](Documentation/IfStatements)
+[If Statements](Documentation/IfStatements.md)
 
-[Processes](Documentation/Processes)
+[Processes](Documentation/Processes.md)
 
-[Operators](Documentation/Operators)
+[Operators](Documentation/Operators.md)
