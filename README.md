@@ -17,4 +17,6 @@ Do note, the documentation of this language **does not** expect you to understan
 
 [Processes](Documentation/Processes.md)
 
+[Processes](Documentation/Events.md)
+
 [Operators](Documentation/Operators.md)
