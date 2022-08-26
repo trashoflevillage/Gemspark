@@ -13,7 +13,7 @@ Do note, the documentation of this language **does not** expect you to understan
 
 [Variables](Documentation/Variables)
 
-[If Statements](Documentation/If Statements)
+[If Statements](Documentation/IfStatements)
 
 [Processes](Documentation/Processes)
 
