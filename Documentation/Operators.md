@@ -1,5 +1,5 @@
 # Operator
-**Note: The Operator documentation expects you to have a complete understanding of [functions](Functions.md)!**
+**Note: The Operator documentation expects you to have a complete understanding of [functions](Functions.md)!**<br>
 Operators function nearly identical to [functions](Functions.md), however they are declared and utilized differently.
 
 A good example of an operator would be ``+``. 
