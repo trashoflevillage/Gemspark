@@ -8,9 +8,13 @@ Number x = 3 + 4; // This is an example of an operator in action!
 ```
 
 ## Declaration
-To start the declaration of an operator, use the ``op`` keyword in the top layer of the program. Following this, you need to put the name of your operator. Right now your declaration should look like this:
+To start the declaration of an operator, use the ``op`` keyword in the top layer of the program. Following this, you need to put the name of your operator.
+You also need to state a precedence alongside the operator's name. You can do this by surrounding a number with ``{}``.
+A statement with multiple operators will execute the operators with the highest precedence first.
+Parentheses interact with operators the same as they do in math.
+Right now your declaration should look like this:
 ```
-op operatorName {
+op operatorName{1} {
 
 }
 ```
@@ -19,11 +23,11 @@ Now when you type your operator's name somewhere in the program, it will execute
 ## Parameters
 To make this operator interact with adjacent values, inside of the declaration, on the side that you want the operator to interact with, add parentheses with a parameter inside of them.
 ```
-op (Number num) operatorName {
+op (Number num) operatorName{1} {
 	// This operator will interact with a number to the left of it.
 }
 
-op (Number num1) operator2 (Number num2) {
+op (Number num1) operator2{1} (Number num2) {
 	// This operator will interact with a number on the left and right of it.
 }
 ```
@@ -34,7 +38,11 @@ Return Values work the same as they do in [functions](Functions.md), however the
 The ``set`` keyword works nearly identically to how it works in [functions](Functions.md), however the it will always change the *left* parameter. If there is no left parameter and you use the ``set`` keyword, an error will be thrown.
 
 ```
-op (Number num) + (Number num2) -> Number {
-	set Add(num, num2); // A recreation of the '+' functionality using the 'set' keyword.
+op (Number num) +{1} (Number num2) -> Number {
+	return Add(num, num2); // A recreation of the '+' functionality of other languages using the 'return' keyword.
+}
+
+op (Number num) +={1} (Number num2) -> Number {
+	set Add(num, num2); // A recreation of the '+=' functionality of other languages using the 'set' keyword.
 }
 ```
