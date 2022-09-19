@@ -21,6 +21,6 @@ y = "Hello!" // Therefor they can be reassigned to a new type, too.
 To use a variable, you simply need to type the variable's name where you want to use it! For example;
 ```
 String x = "Hello World!";
-default.sendMessage(x); // When the sendMessage function is called, 
-it will utilize the value of 'x', which in this case is "Hello World!"
+default.sendMessage(x); /* When the sendMessage function is called, 
+it will utilize the value of 'x', which in this case is "Hello World!"*/
 ```
