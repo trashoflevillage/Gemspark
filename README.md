@@ -9,6 +9,7 @@ To create a Gemspark program, use the `.gs` file extension.
 ![GemsparkIcon](https://github.com/trashoflevillage/Gemspark/blob/main/icon.png)
 <br>
 # Documentation
+**Note: These categorizations are not ordered with which you should learn first. However, the links inside of the categories are.**
 ## Functions
 [Functions](Documentation/Functions.md)
 
