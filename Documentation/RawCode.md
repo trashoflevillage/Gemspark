@@ -1,11 +1,11 @@
 # Raw Code
 Raw Code is the very backbone of Gemspark, it's what everything runs off of. It is the key to your conventional Gemspark code translating over to DiamondFire block code.
 To use Raw Code, you *must* understand DiamondFire's block code.
-The following elements of Gemspark can be declared with Raw Code:
-[Functions](#Functions)
-[Events](#Events)
-[Fields](#Fields)
-[If Statements](#If_Statements)
+The following elements of Gemspark can be declared with Raw Code:<br>
+[Functions](#Functions)<br>
+[Events](#Events)<br>
+[Fields](#Fields)<br>
+[If Statements](#If-Statements)<br>
 [Values](#Values)
 
 ## Functions
