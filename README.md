@@ -18,12 +18,11 @@ To create a Gemspark program, use the `.gs` file extension.
 
 [Operators](Documentation/Operators.md)
 
+[Raw Declaration](Documentation/RawCode.md)
+
 ## Values
 [Values](Documentation/Values.md)
 
 [Variables](Documentation/Variables.md)
 
 [If Statements](Documentation/IfStatements.md)
-
-## Backend
-[Raw Programming](Documentation/RawCode.md)
