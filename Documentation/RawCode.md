@@ -94,7 +94,7 @@ The following is a list of the valid event types;
 
 Following the event type, surrounded by curly braces you must specify the *exact* text that is on the event block's sign in DiamondFire for the event you are wanting to reference.
 ```
-rawev EventName[player]{JoinEvent}
+rawev EventName[player]{JoinE}
 ```
 Now follow all of this up by a semicolon, and that's it! Now you can subscribe [processes](Processes.md) to your event!
 ```
