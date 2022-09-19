@@ -11,29 +11,29 @@ Values are pieces of data that your plot can utilize. There are many different t
 
 
 ## Strings
-A ``String`` is a type of value that stores a list of characters. Strings are often used for the displaying of messages to players. To define a String, surround the characters you want included in the String by ``"``'s.
-``"Hello World!"``
+A ``String`` is a type of value that stores a list of characters. Strings are often used for the displaying of messages to players. To define a String, surround the characters you want included in the String by ``"``'s.<br>
+``"Hello World!"``<br>
 Additionally, Strings allow for the use of [escape sequences](https://en.wikipedia.org/wiki/Escape_sequences_in_C).
 
 
 ## Numbers
 A ``Number`` encompasses any real numbers that the program utilizes. 
-You can define a Number by using numeric characters.
-``1``
-``-9``
+You can define a Number by using numeric characters.<br>
+``1``<br>
+``-9``<br>
 ``30.53``
 
 ## Locations
 A ``Location`` can store a list of five Numbers. These numbers represent an in-game coordinate. Locations allow for the easy modification of the game's world.
-You can create a Location by using the ``createLoc()`` [function](Functions.md).
-``createLoc(5, 50, 5);``
-``createLoc(5, 75, 8, 5, 8);``
+You can create a Location by using the ``createLoc()`` [function](Functions.md).<br>
+``createLoc(5, 50, 5);``<br>
+``createLoc(5, 75, 8, 5, 8);``<br>
 ``createLoc(20, 25, 15, 80);``
 
 ## Vectors
 A ``Vector`` can store three Numbers. Each Number represents X, Y, and Z respestively. The higher the Number, the further the Vector points in that direction. Vectors are typically utilized for representing velocity.
-You can create a Vector by using the ``createVec()`` [function](Functions.md).
-``createVec(1, 1, 1, 5);``
+You can create a Vector by using the ``createVec()`` [function](Functions.md).<br>
+``createVec(1, 1, 1, 5);``<br>
 ``createVec(-2, 1, 6);``
 
 ## Wild
@@ -42,7 +42,7 @@ You can create a Vector by using the ``createVec()`` [function](Functions.md).
 ## Lists
 ``List``s are what the name implies, they store a list of values. Lists can only store one type of value.
 You can define a List by surrounding the values of the List in `[]`.
-To set a [variable](Variables.md) to a List, you must append a pair of square brackets to the end of the type.
+To set a [variable](Variables.md) to a List, you must append a pair of square brackets to the end of the type.<br>
 ``String[] stringList = ["Hello", "World!"];``
 
 ## Dictionaries
