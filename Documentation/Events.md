@@ -8,7 +8,7 @@ Unfortunately, due to forces outside of Gemspark's controls, there are some even
 <br>
 <br>
 <br>
-# List of Events
+## List of Events
 |Keyword |Trigger |Cancellable |Rank Required
 --- | --- | --- | ---
 |PlayerJoinEvent|Triggers when a player joins the plot.|False|Default
