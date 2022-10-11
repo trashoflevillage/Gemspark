@@ -5,7 +5,7 @@ An If Statement is defined as
 ```if <definition> (conditions) {code}```
 Additionally, if you append an ```!``` to the beginning of the definition it will inverse the statement to check if the condition is not true.
 
-# Value Equals
+## Value Equals
 The 'Value Equals' definition checks if the first [value](Values.md) provided is exactly equal to any of the subsequent [values]](Values.md).
 The Value Equals keyword(s) are
 ``eq``, ``equals``, ``val``, ``==``
@@ -16,7 +16,7 @@ Example usage:
 ``if == (x, 1, 5) {code} // The code will only run if 'x' is equal to 1 or 5.``
 
 
-# Greater Than
+## Greater Than
 The 'Greater Than' definition checks if the first [value](Values.md) provided is greater than any of the subsequent [values](Values.md).
 The Greater Than keyword(s) are
 ``great``, ``>``
@@ -27,7 +27,7 @@ Example usage:
 ``if > (x, 1, 5) {code} // The code will only run if 'x' is greater than 1 or 5.``
 
 
-# Less Than
+## Less Than
 The 'Less Than' definition checks if the first [value](Values.md) provided is less than any of the subsequent [values](Values.md).
 The Less Than keyword(s) are
 ``less``, ``<``
@@ -38,7 +38,7 @@ Example usage:
 ``if < (x, 1, 5) {code} // The code will only run if 'x' is less than 1 or 5.``
 
 
-# Greater Than/Equal To
+## Greater Than/Equal To
 The 'Greater Than/Equal To' definition checks if the first [value](Values.md) provided is greater than any of the subsequent [values](Values.md) or equal to any of the subsequent [values](Values.md).
 The Greater Than/Equal To keyword(s) are
 ``greatEq``, ``>=``
@@ -49,7 +49,7 @@ Example usage:
 ``if >= (x, 1, 5) {code} // The code will only run if 'x' is greater than 1 or 5 or equal to 1 or 5.``
 
 
-# Less Than/Equal To
+## Less Than/Equal To
 The 'Less Than/Equal To' definition checks if the first [value](Values.md) provided is less than any of the subsequent [values](Values.md) or equal to any of the subsequent [values](Values.md).
 The Less Than/Equal To keyword(s) are
 ``lessEq``, ``<=``
@@ -60,7 +60,7 @@ Example usage:
 ``if <= (x, 1, 5) {code} // The code will only run if 'x' is less than 1 or 5 or equal to 1 or 5.``
 
 
-# String Contains
+## String Contains
 The 'String Contains' definition checks if the first [value](Values.md) provided contains any of the subsequent Strings.
 The String Contains keyword(s) are
 ``contains``, ``has``, ``stringHas``
@@ -70,7 +70,7 @@ The parameters for the String Contains if statement are as follows;
 Example usage:
 ``if has (x, "Hello World!", "Goodbye World!") {code} // The code will only run if 'x' contains "Hello World!" or "Goodbye World!"``
 
-# String Ends With
+## String Ends With
 The 'String Ends With' definition checks if the first [value](Values.md) provided ends with any of the subsequent Strings.
 The String Ends With keyword(s) are
 ``endsWith``, ``last``
@@ -84,7 +84,7 @@ if endsWith (x, ":)") {code} // It works with more than just individual characte
 ```
 
 
-# String Starts With
+## String Starts With
 The 'String Starts With' definition checks if the first [value](Values.md) provided ends with any of the subsequent Strings.
 The String Starts With keyword(s) are
 ``startsWith``, ``first``
@@ -98,7 +98,7 @@ if startsWith (x, "Apple") {code} // It works with more than just individual cha
 ```
 
 
-# RegEx Comparison
+## RegEx Comparison
 The 'RegEx' Comparison definition checks if the first [value](Values.md) matches any of the subsequent regEx strings.
 The RegEx Comparison keyword(s) are
 ``regEx``
@@ -112,7 +112,7 @@ if startsWith ("Appleee", "Appl+e") {code} // This will run, because the RegEx i
 ```
 
 
-# Within Range
+## Within Range
 The 'Within Range' definition checks if the first [value](Values.md) provided is within the following two [values](Values.md). It will not check if the [values](Values.md) are equal.
 The Within Range keyword(s) are
 ``within``
@@ -134,7 +134,7 @@ if within (x, a, b) {code} // The code will only run if 'x' is within a and b.
 ```
 
 
-# Near Location
+## Near Location
 The 'Near Location' definition checks if the first [value](Values.md) provided is within the provided radius of the provided comparing location(s).
 The Near Location keyword(s) are
 ``near``
@@ -149,7 +149,7 @@ c = newLoc(5.7, 75, 8.1);
 if within (a, b, 3) {code} // The code will not run, because 'a' is not near enough to 'b'.
 if withing (c, b, 3) {code} // However, 'c' is within 'b's radius of 3, so it does run!
 ```
-# List Contains
+## List Contains
 The 'List Contains' definition checks if the list provided contains any of the subsequent [values](Values.md).
 The List Contains keyword(s) are
 ``contains``, ``has``, ``listHas``
@@ -159,7 +159,7 @@ The parameters for the List Contains if statement are as follows;
 Example usage:
 ``if has (x, 23, 81) {code} // The code will only run if 'x' contains 23 or 81.``
 
-# List Value Equals
+## List Value Equals
 The 'List Value Equals' definition checks if a list's index has a specific [value](Values.md).
 The List Value Equals keyword(s) are
 ``index``
@@ -169,7 +169,7 @@ The parameters for the List Value Equals if statement are as follows;
 Example usage:
 ``if index (x, 5, "Hello!") {code} // The code will only run if 'x's 5th index is equal to "Hello!"``
 
-# Dictionary Has Key
+## Dictionary Has Key
 The 'Dictionary Has Key' definition checks if a dictionary has a specified key.
 The Dictionary Has Key keyword(s) are
 ``contains``, ``has``, ``hasKey``, ``dictHas``
@@ -179,7 +179,7 @@ The parameters for the Dictionary Has Key if statement are as follows;
 Example usage:
 ``if hasKey (x, "keyName") {code} // The code will only run if 'x' has a key with the name "keyName".``
 
-# Dictionary Value Equals
+## Dictionary Value Equals
 The 'Dictionary Value Equals' definition checks if a dictionary's key is equal to the specified [value](Values.md).
 The Dictionary Value Equals keyword(s) are
 ``keyEq``, ``keyIs``, ``dictVal``
@@ -192,7 +192,7 @@ if keyIs (x, "keyName", y) {code} // The code will only run if 'x'
 has a key with the name "keyName" and the value of 'y'.
 ```
 
-# Item Has Tag
+## Item Has Tag
 The 'Item Has Tag' definition allows users to detect if an Item has a tag or not. Additionally, there is an optional third parameter for also checking the [value](Values.md) of the tag.
 The Item Has Tag keyword(s) are
 ``has``, ``hasTag``, ``itemHas``
@@ -207,7 +207,7 @@ if hasTag (x, "tagname") {code} // This would run if the item had the specified 
 if hasTag (x, "tagname" "value") // This would run if the item had the specified tag along with the specified value.
 ```
 
-# Value Is Type
+## Value Is Type
 The 'Value Is Type' definition compares the types of the two provided [values](Values.md).
 The Value Is Type keyword(s) are
 ``type``
@@ -222,7 +222,7 @@ if type (checkValue, checkValueB) {code} // This will work, since the first para
 if type (checkValueB, checkValue) {code} // This will not work, since the first parameter does not allow dynamic variables.
 ```
 
-# Variable Exists
+## Variable Exists
 The 'Variable Exists' definition checks if the specified variable exists. Due to this functionality, the compiler will not throw an error if the variable being checked does not exist in the current context.
 The Variable Exists keyword(s) are
 ``exists``
