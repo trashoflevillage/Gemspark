@@ -1,9 +1,11 @@
 # If Statements
-If Statements are a way to make code only read under specific conditions. There are many types of If Statements that are derived from DiamondFire. Gemspark refers to them as 'Definitions', as they define how the If statement functions.
+If Statements are a way to make code only read under specific conditions. There are many types of If Statements that are derived from DiamondFire. Gemspark refers to them as 'Definitions', as they define how the If statement functions.<br>
+By default, the If statement will only apply to the code immideatly after it. However, if you follow it up with code surrounded in ``{}``, then it will apply to all of the code inside of the ``{}``.
 
 An If Statement is defined as
 ```if <definition> (conditions) {code}```
-Additionally, if you append an ```!``` to the beginning of the definition it will inverse the statement to check if the condition is not true.
+Additionally, if you append an ```!``` to the beginning of the definition it will inverse the statement to check if the condition is not true.<br>
+Below is a list of If statements that come with the default library.
 
 ## Value Equals
 The 'Value Equals' definition checks if the first [value](Values.md) provided is exactly equal to any of the subsequent [values]](Values.md).
