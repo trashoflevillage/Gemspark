@@ -2,6 +2,7 @@
 Gemspark is a text-based programming language with the purpose of being translated to **DiamondFire** code. If you are unfamiliar with what **DiamondFire** is, visit [this site](https://mcdiamondfire.com/about/).
 
 Do note, the documentation of this language **does not** expect you to understand how to code in DiamondFire. This documentation attempts to explain everything necessary as thorough as possible.
+This documentation assumes that you are utilizing the default library.
 
 To create a Gemspark program, use the `.gs` file extension.
 <br>
