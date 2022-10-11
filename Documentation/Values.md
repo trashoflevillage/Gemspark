@@ -36,9 +36,6 @@ You can create a Vector by using the ``createVec()`` [function](Functions.md).<b
 ``createVec(1, 1, 1, 5);``<br>
 ``createVec(-2, 1, 6);``
 
-## Wild
-``Wild`` values represent *every type of value.* A Wild value can be anything from a String to a Dictionary. The existence of these values is primarily for the sake of easily being able to translate DiamondFire code into Gemspark code.
-
 ## Lists
 ``List``s are what the name implies, they store a list of values. Lists can only store one type of value.
 You can define a List by surrounding the values of the List in `[]`.
