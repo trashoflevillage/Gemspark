@@ -34,15 +34,14 @@ op (Number num1) operator2{1} (Number num2) {
 If an operator checks for a value and it is either the wrong type of value or no value is found, an error will be thrown.
 
 ## Return Values
-Return Values work the same as they do in [functions](Functions.md), however the ``set`` keyword works slightly differently.
-The ``set`` keyword works nearly identically to how it works in [functions](Functions.md), however the it will always change the *left* parameter. If there is no left parameter and you use the ``set`` keyword, an error will be thrown.
+Return Values work the same as they do in [functions](Functions.md), with a few key differences. Firstly, the return type does not need specified, and is required to be the same type as the first parameter. Secondly, the `set` keyword is a keyword specific to operators, that is similar to how `return` works. The only difference is that if the left parameter originates from a [variable](Variables.md), then it will set the value of that variable to whatever is being returned, instead of just being read as the return value.
 
 ```
-op (Number num) +{1} (Number num2) -> Number {
+op (Number num) +{1} (Number num2) {
 	return Add(num, num2); // A recreation of the '+' functionality of other languages using the 'return' keyword.
 }
 
-op (Number num) +={1} (Number num2) -> Number {
+op (Number num) +={1} (Number num2) {
 	set Add(num, num2); // A recreation of the '+=' functionality of other languages using the 'set' keyword.
 }
 ```
