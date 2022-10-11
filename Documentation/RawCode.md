@@ -1,5 +1,6 @@
 # Raw Code
-Raw Code is the very backbone of Gemspark, it's what everything runs off of. It is the key to your conventional Gemspark code translating over to DiamondFire block code.
+Raw Code is the very backbone of Gemspark, it's what everything runs off of. It is the key to your conventional Gemspark code translating over to DiamondFire block code.<br>
+The main purpose of raw code is utilization by the default library. However, if the default library does not support something that is in Diamondfire, then you can add support for it yourself using raw code.
 To use Raw Code, you *must* understand DiamondFire's block code.<br>
 All Raw Code declaration must start with the `raw` keyword.<br>
 The following elements of Gemspark can be declared with Raw Code:<br>
@@ -57,7 +58,7 @@ raw fun functionName(String a) {
 ```
 Raw functions can be called the same as any other function by just typing the function's name followed by the parameters.
 ```
-OnJoin @ PlayerJoinEvent {
+pro OnJoin @ PlayerJoinEvent {
 	functionName("Hello world!");
 }
 
@@ -68,7 +69,7 @@ raw fun functionName(String a) {
 ```
 If you want to run the code on a target other than the default, then you must use the `on` keyword followed by the desired [selector](Selectors.md) after the rest of the code block, excluding the semicolon.
 ```
-OnJoin @ PlayerJoinEvent {
+pro OnJoin @ PlayerJoinEvent {
 	functionName("Hello world!");
 }
 
@@ -93,7 +94,7 @@ raw ev EventName[player]
 The following is a list of the valid event types;
 ``player``, ``entity``
 
-Following the event type, surrounded by curly braces you must specify the *exact* text that is on the event block's sign in DiamondFire for the event you are wanting to reference.
+Following the event type, surrounded by ``{}`` you must specify the *exact* text that is on the event block's sign in DiamondFire for the event you are wanting to reference.
 ```
 raw ev EventName[player]{Join}
 ```
@@ -109,5 +110,9 @@ pro ProcessName @ EventName {
 ## Fields
 
 ## If Statements
+Using Raw Code, you can add [If Statements](IfStatements.md) that are a part of Diamondfire's block coding lanugage. To define an If Statement, use the ``if`` keyword. Following this, specify the name of the If Statement
+
+## Repeats
+Using Raw Code, you can add Repeats that are a part of Diamondfire's block coding lanugage.
 
 ## Values
