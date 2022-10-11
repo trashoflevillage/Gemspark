@@ -216,11 +216,10 @@ The parameters for the Value Is Type if statement are as follows;
 
 Example Usage:
 ```
-Wild checkValue = "Hello World!";
+Dyn checkValue = "Hello World!";
 String checkValueB = "Goodbye World!";
-if type (checkValue, checkValueB) {code} // This will work, since the first parameter allows Wild values.
-if type (checkValueB, checkValue) {code} // This will not work, since the first parameter does 
-not allow Wild values.
+if type (checkValue, checkValueB) {code} // This will work, since the first parameter allows dynamic variables.
+if type (checkValueB, checkValue) {code} // This will not work, since the first parameter does not allow dynamic variables.
 ```
 
 # Variable Exists
